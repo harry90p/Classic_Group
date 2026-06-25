@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Classic Travels Rebuild — Starter Scaffold
 
 A modern rebuild of **Classic Group of Travels** (public site + agent portal) on:
@@ -39,3 +40,7 @@ npm run pnr:watch
 ```
 
 > The booking/passenger UI here is a foundation. Wire the exact fields, routes and copy from your discovery files (SPEC.md, site-map.json, design-system.md, api-inventory.md).
+=======
+# Classic_Group
+Classic Group of Travels.
+>>>>>>> 2c809d8b700aea18ac4646895e91fadf39c103b7
