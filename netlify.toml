@@ -1,0 +1,14 @@
+# Netlify deployment config for the Next.js 16 App Router app.
+# The official Next.js runtime plugin handles SSR, API routes, middleware,
+# and Server Actions automatically — no app code changes required.
+
+[build]
+  command = "npm run build"
+  # Do NOT set `publish` manually — @netlify/plugin-nextjs manages the output.
+
+[build.environment]
+  # Next.js 16 / React 19 require Node 20+.
+  NODE_VERSION = "20"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
